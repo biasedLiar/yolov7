@@ -1,0 +1,9 @@
+train: ../yolov7/new_dataset/images/train
+val: ../yolov7/new_dataset/images/valid
+test: ../yolov7/new_dataset/images/test
+ 
+# Classes
+nc: 8  # number of classes
+names: ["car", "truck", "bus", "motorcycle", "bicycle", "scooter", "person", "rider"]  # class names
+
+#/home/eliaseb/Documents/potholeYOLO/yolov7/pothole_dataset/images
